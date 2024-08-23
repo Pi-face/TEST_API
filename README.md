@@ -1,11 +1,12 @@
 # TEST_API
-test api for testing tests.
 
 ## How to use the API
 
 The API is hosted on Railway. There's no frontend so you'll need to make requests directly with a tool like Postman.
 
-API URL: `testapi-production-6225.up.railway.app`
+API URL: `https://testapi-production-6225.up.railway.app`
+
+Make sure you use HTTPS or all non-GET requests won't work (they'll act like a GET requests).
 
 ### Routes
 
