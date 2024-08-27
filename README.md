@@ -13,7 +13,7 @@ Make sure you use HTTPS or all non-GET requests won't work (they'll act like a G
 All usable routes are on `/users`.
 
 #### Create a User
-GET `/users`, send `username`, `email`, `password` and `age` in JSON body.
+POST `/users`, send `username`, `email`, `password` and `age` in JSON body.
 
 #### Get all Users
 GET `/users`
